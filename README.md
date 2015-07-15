@@ -16,6 +16,7 @@ install
 example
 -------
 
+```
   package main
   import "fmt"
   import "github.com/henrylee2cn/mahonia"
@@ -24,4 +25,4 @@ example
     //converts a  string from UTF-8 to gbk encoding.
     fmt.Println(enc.ConvertString("hello,世界"))  
   }
-
+```
